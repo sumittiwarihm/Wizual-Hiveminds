@@ -1,0 +1,12 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python-envs.pythonProjects": [],
+
+    // Tell VS Code to NEVER use MSYS2 Python
+    "python.excludedInterpreters": [
+        "C:\\msys64\\ucrt64\\bin\\python.exe"
+    ],
+
+    // Set your correct default Python (global)
+    "python.defaultInterpreterPath": "C:\\Users\\Sumit\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+}

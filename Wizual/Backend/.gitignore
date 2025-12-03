@@ -1,0 +1,24 @@
+# ---------------------------------------------------------
+# Django / Backend specific
+# ---------------------------------------------------------
+
+# Local environment variables
+.env
+
+# SQLite DB
+db.sqlite3
+db.sqlite3-journal
+
+# Django static & media (if generated)
+staticfiles/
+media/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Google Cloud / credentials
+service-account.json
+*.key
+*.pem
+*.p12
